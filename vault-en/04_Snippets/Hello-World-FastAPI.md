@@ -1,12 +1,13 @@
 ---
 created: 2026-01-01
-modified: 2026-01-01
+modified: 2026-07-02
 type: snippet
-status:
-  - 🟢 Done
-language: "Python"
-domain: "backend"
-dependencies: ["fastapi", "uvicorn"]
+status: 🟢 Done
+language: Python
+domain: backend
+dependencies:
+  - fastapi
+  - uvicorn
 related_theory:
   - "[[03_Knowledge/Example-Topic/Example-Topic]]"
 related_snippets: []
@@ -56,6 +57,7 @@ app = FastAPI()
 ```
 > Creates the application instance. This is the central object.
 
+#task 
 ```python
 @app.get("/")
 def root():

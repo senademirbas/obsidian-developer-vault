@@ -1,31 +1,37 @@
-/* Style for #task tag - Cool Green highlight */
-.cm-hashtag.cm-meta.cm-tag-task,
+/* --- #task Tag - Soft Muted Green --- */
+/* Reading Mode */
 .tag[href="#task"] {
-  background-color: rgba(39, 89, 51, 0.15) !important;
-  color: #8ade9e !important;
-  border: 1px solid rgba(138, 222, 158, 0.3) !important;
-  border-radius: 4px;
-  padding: 1px 5px;
-  font-weight: 500;
-  transition: all 0.2s ease-in-out;
-}
-.tag[href="#task"]:hover {
-  background-color: rgba(39, 89, 51, 0.3) !important;
-  border-color: rgba(138, 222, 158, 0.6) !important;
+  background-color: transparent !important;
+  color: #79a383 !important;
+  font-weight: 600 !important;
+  border: none !important;
+  padding: 0 !important;
 }
 
-/* Style for #bug tag - Cool Red highlight */
-.cm-hashtag.cm-meta.cm-tag-bug,
-.tag[href="#bug"] {
-  background-color: rgba(161, 43, 43, 0.15) !important;
-  color: #f87171 !important;
-  border: 1px solid rgba(248, 113, 113, 0.3) !important;
-  border-radius: 4px;
-  padding: 1px 5px;
-  font-weight: 500;
-  transition: all 0.2s ease-in-out;
+/* Editor / Live Preview */
+.cm-tag-task {
+  color: #79a383 !important;
+  font-weight: 600 !important;
 }
-.tag[href="#bug"]:hover {
-  background-color: rgba(161, 43, 43, 0.3) !important;
-  border-color: rgba(248, 113, 113, 0.6) !important;
+.cm-hashtag-begin:has(+ .cm-tag-task) {
+  color: #79a383 !important;
+}
+
+/* --- #bug Tag - Soft Warning Red --- */
+/* Reading Mode */
+.tag[href="#bug"] {
+  background-color: transparent !important;
+  color: #c97575 !important;
+  font-weight: 600 !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* Editor / Live Preview */
+.cm-tag-bug {
+  color: #c97575 !important;
+  font-weight: 600 !important;
+}
+.cm-hashtag-begin:has(+ .cm-tag-bug) {
+  color: #c97575 !important;
 }

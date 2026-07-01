@@ -1,26 +1,21 @@
 ---
 created: 2026-01-01
-modified: 2026-01-01
+modified: 2026-07-02
 type: knowledge
-status: "🟡 Learning"
-# 🔴 Not Started | 🟡 Learning | 🟢 Done | 🔵 Needs Review
-
+status: 🟡 Learning
 tags:
   - backend/fastapi/routing
-
 parent: "[[Backend]]"
 children:
   - "[[Dependency Injection]]"
   - "[[FastAPI Middleware]]"
-
 related_theory:
   - "[[Pydantic Models]]"
 related_snippets:
   - "[[04_Snippets/Hello-World-FastAPI]]"
 related_projects:
   - "[[02_Projects/Example-Project/Example-Project]]"
-
-source: "https://fastapi.tiangolo.com/tutorial/"
+source: https://fastapi.tiangolo.com/tutorial/
 ---
 
 # Example-Topic
