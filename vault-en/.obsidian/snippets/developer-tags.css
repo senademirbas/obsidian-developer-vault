@@ -1,6 +1,7 @@
-/* --- #task Tag - Forest Green Background & White Text --- */
-/* Reading Mode */
-body .tag[href="#task"] {
+/* --- #task Tag - Solid Forest Green & White Text --- */
+/* Reading Mode & General override */
+body .tag[href="#task"],
+body .colored-tag-task {
   background-color: #275933 !important;
   color: #ffffff !important;
   border-radius: 4px !important;
@@ -10,33 +11,30 @@ body .tag[href="#task"] {
   text-decoration: none !important;
 }
 
-/* Editor / Live Preview - Right Part (task) */
-body .cm-tag-task {
+/* Editor / Live Preview Spans */
+body span.cm-hashtag.colored-tag-task {
   background-color: #275933 !important;
   color: #ffffff !important;
-  border-top-right-radius: 4px !important;
-  border-bottom-right-radius: 4px !important;
-  padding-right: 5px !important;
   padding-top: 1px !important;
   padding-bottom: 1px !important;
   font-weight: 600 !important;
+  border: none !important;
 }
-
-/* Editor / Live Preview - Left Part (#) */
-body .cm-hashtag-begin:has(+ .cm-tag-task),
-body .cm-hashtag-begin:has(~ .cm-tag-task) {
-  background-color: #275933 !important;
-  color: #ffffff !important;
+body span.cm-hashtag-begin.colored-tag-task {
   border-top-left-radius: 4px !important;
   border-bottom-left-radius: 4px !important;
   padding-left: 5px !important;
-  padding-top: 1px !important;
-  padding-bottom: 1px !important;
+}
+body span.cm-hashtag-end.colored-tag-task {
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  padding-right: 5px !important;
 }
 
-/* --- #bug Tag - Rich Dark Red Background & White Text --- */
-/* Reading Mode */
-body .tag[href="#bug"] {
+/* --- #bug Tag - Solid Rich Red & White Text --- */
+/* Reading Mode & General override */
+body .tag[href="#bug"],
+body .colored-tag-bug {
   background-color: #a12b2b !important;
   color: #ffffff !important;
   border-radius: 4px !important;
@@ -44,29 +42,24 @@ body .tag[href="#bug"] {
   font-weight: 600 !important;
   border: none !important;
   text-decoration: none !important;
-  box-shadow: none !important;
 }
 
-/* Editor / Live Preview - Right Part (bug) */
-body .cm-tag-bug {
+/* Editor / Live Preview Spans */
+body span.cm-hashtag.colored-tag-bug {
   background-color: #a12b2b !important;
   color: #ffffff !important;
-  border-top-right-radius: 4px !important;
-  border-bottom-right-radius: 4px !important;
-  padding-right: 5px !important;
   padding-top: 1px !important;
   padding-bottom: 1px !important;
   font-weight: 600 !important;
+  border: none !important;
 }
-
-/* Editor / Live Preview - Left Part (#) */
-body .cm-hashtag-begin:has(+ .cm-tag-bug),
-body .cm-hashtag-begin:has(~ .cm-tag-bug) {
-  background-color: #a12b2b !important;
-  color: #ffffff !important;
+body span.cm-hashtag-begin.colored-tag-bug {
   border-top-left-radius: 4px !important;
   border-bottom-left-radius: 4px !important;
   padding-left: 5px !important;
-  padding-top: 1px !important;
-  padding-bottom: 1px !important;
+}
+body span.cm-hashtag-end.colored-tag-bug {
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  padding-right: 5px !important;
 }

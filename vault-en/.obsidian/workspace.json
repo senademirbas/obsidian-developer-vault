@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Daily/2026-01-01.md",
+                "file": "02_Projects/Example-Project/Example-Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-01"
+              "title": "Example-Project"
             }
           }
         ],
@@ -251,8 +251,8 @@
   },
   "active": "1fd4694ec4542fc8",
   "lastOpenFiles": [
-    "02_Projects/Example-Project/Example-Project.md",
     "01_Daily/2026-01-01.md",
+    "02_Projects/Example-Project/Example-Project.md",
     "04_Snippets/Hello-World-FastAPI.md",
     "03_Knowledge/Example-Topic/Example-Topic.md",
     "00_Dashboard/main.md",
