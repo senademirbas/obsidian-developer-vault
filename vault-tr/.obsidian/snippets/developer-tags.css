@@ -1,62 +1,29 @@
-/* --- #task Tag - Soft Muted Green (Sade Düz Metin) --- */
-/* Reading Mode */
-.tag[href="#task"] {
-  background-color: transparent !important;
-  color: #79a383 !important;
-  font-weight: 600 !important;
-  border: none !important;
-  padding: 0 !important;
-}
-
-/* Editor / Live Preview */
-.cm-tag-task {
-  color: #79a383 !important;
-  font-weight: 600 !important;
-}
+/* --- #task Tag - Muted Green Text Only (Sade Düz Metin) --- */
+.tag[href="#task"],
+.cm-tag-task,
 .cm-hashtag-begin:has(+ .cm-tag-task),
 .cm-hashtag-begin:has(~ .cm-tag-task) {
-  color: #79a383 !important;
   background-color: transparent !important;
-}
-
-/* --- #bug Tag - Standout Warning Red (Dikkat Çekici Kapsül) --- */
-/* Reading Mode */
-.tag[href="#bug"] {
-  background-color: rgba(220, 38, 38, 0.18) !important;
-  color: #f87171 !important;
-  border: 1px solid rgba(220, 38, 38, 0.4) !important;
-  border-radius: 4px !important;
-  padding: 2px 6px !important;
+  color: #79a383 !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
   font-weight: 600 !important;
   text-decoration: none !important;
 }
 
-/* Editor / Live Preview - Sað Parça */
-.cm-tag-bug {
-  background-color: rgba(220, 38, 38, 0.18) !important;
-  color: #f87171 !important;
-  border-top-right-radius: 4px !important;
-  border-bottom-right-radius: 4px !important;
-  border-right: 1px solid rgba(220, 38, 38, 0.4) !important;
-  border-top: 1px solid rgba(220, 38, 38, 0.4) !important;
-  border-bottom: 1px solid rgba(220, 38, 38, 0.4) !important;
-  padding-right: 4px !important;
-  padding-top: 1px !important;
-  padding-bottom: 1px !important;
-  font-weight: 600 !important;
-}
-
-/* Editor / Live Preview - Sol Parça (#) */
+/* --- #bug Tag - Soft Red Text Only (Sade Düz Metin) --- */
+.tag[href="#bug"],
+.cm-tag-bug,
 .cm-hashtag-begin:has(+ .cm-tag-bug),
 .cm-hashtag-begin:has(~ .cm-tag-bug) {
-  background-color: rgba(220, 38, 38, 0.18) !important;
-  color: #f87171 !important;
-  border-top-left-radius: 4px !important;
-  border-bottom-left-radius: 4px !important;
-  border-left: 1px solid rgba(220, 38, 38, 0.4) !important;
-  border-top: 1px solid rgba(220, 38, 38, 0.4) !important;
-  border-bottom: 1px solid rgba(220, 38, 38, 0.4) !important;
-  padding-left: 4px !important;
-  padding-top: 1px !important;
-  padding-bottom: 1px !important;
+  background-color: transparent !important;
+  color: #d67c7c !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
 }
