@@ -1,29 +1,71 @@
-/* --- #task Tag - Muted Green Text Only (Sade Düz Metin) --- */
-.tag[href="#task"],
-.cm-tag-task,
-.cm-hashtag-begin:has(+ .cm-tag-task),
-.cm-hashtag-begin:has(~ .cm-tag-task) {
-  background-color: transparent !important;
-  color: #79a383 !important;
-  border: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  box-shadow: none !important;
+/* --- #task Tag - Light Green Background & White Text --- */
+/* Reading Mode */
+.tag[href="#task"] {
+  background-color: rgba(46, 117, 89, 0.65) !important;
+  color: #ffffff !important;
+  border-radius: 4px !important;
+  padding: 2px 6px !important;
   font-weight: 600 !important;
+  border: none !important;
   text-decoration: none !important;
 }
 
-/* --- #bug Tag - Soft Red Text Only (Sade Düz Metin) --- */
-.tag[href="#bug"],
-.cm-tag-bug,
+/* Editor / Live Preview - Right Part (task) */
+.cm-tag-task {
+  background-color: rgba(46, 117, 89, 0.65) !important;
+  color: #ffffff !important;
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  padding-right: 5px !important;
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+  font-weight: 600 !important;
+}
+
+/* Editor / Live Preview - Left Part (#) */
+.cm-hashtag-begin:has(+ .cm-tag-task),
+.cm-hashtag-begin:has(~ .cm-tag-task) {
+  background-color: rgba(46, 117, 89, 0.65) !important;
+  color: #ffffff !important;
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+  padding-left: 5px !important;
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+}
+
+/* --- #bug Tag - Light Red Background & White Text --- */
+/* Reading Mode */
+.tag[href="#bug"] {
+  background-color: rgba(186, 45, 45, 0.7) !important;
+  color: #ffffff !important;
+  border-radius: 4px !important;
+  padding: 2px 6px !important;
+  font-weight: 600 !important;
+  border: none !important;
+  text-decoration: none !important;
+}
+
+/* Editor / Live Preview - Right Part (bug) */
+.cm-tag-bug {
+  background-color: rgba(186, 45, 45, 0.7) !important;
+  color: #ffffff !important;
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  padding-right: 5px !important;
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+  font-weight: 600 !important;
+}
+
+/* Editor / Live Preview - Left Part (#) */
 .cm-hashtag-begin:has(+ .cm-tag-bug),
 .cm-hashtag-begin:has(~ .cm-tag-bug) {
-  background-color: transparent !important;
-  color: #d67c7c !important;
-  border: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  box-shadow: none !important;
-  font-weight: 600 !important;
-  text-decoration: none !important;
+  background-color: rgba(186, 45, 45, 0.7) !important;
+  color: #ffffff !important;
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+  padding-left: 5px !important;
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
 }

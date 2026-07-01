@@ -60,6 +60,7 @@ app = FastAPI()
 #task #bug 
 
 #task #bug 
+#task 
 ```python
 @app.get("/")
 def root():
