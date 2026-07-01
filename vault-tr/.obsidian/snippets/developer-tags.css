@@ -1,6 +1,6 @@
 /* --- #task Tag - Forest Green Background & White Text --- */
 /* Reading Mode */
-.tag[href="#task"] {
+body .tag[href="#task"] {
   background-color: #275933 !important;
   color: #ffffff !important;
   border-radius: 4px !important;
@@ -11,7 +11,7 @@
 }
 
 /* Editor / Live Preview - Right Part (task) */
-.cm-tag-task {
+body .cm-tag-task {
   background-color: #275933 !important;
   color: #ffffff !important;
   border-top-right-radius: 4px !important;
@@ -23,8 +23,8 @@
 }
 
 /* Editor / Live Preview - Left Part (#) */
-.cm-hashtag-begin:has(+ .cm-tag-task),
-.cm-hashtag-begin:has(~ .cm-tag-task) {
+body .cm-hashtag-begin:has(+ .cm-tag-task),
+body .cm-hashtag-begin:has(~ .cm-tag-task) {
   background-color: #275933 !important;
   color: #ffffff !important;
   border-top-left-radius: 4px !important;
@@ -36,7 +36,7 @@
 
 /* --- #bug Tag - Rich Dark Red Background & White Text --- */
 /* Reading Mode */
-.tag[href="#bug"] {
+body .tag[href="#bug"] {
   background-color: #a12b2b !important;
   color: #ffffff !important;
   border-radius: 4px !important;
@@ -44,10 +44,11 @@
   font-weight: 600 !important;
   border: none !important;
   text-decoration: none !important;
+  box-shadow: none !important;
 }
 
 /* Editor / Live Preview - Right Part (bug) */
-.cm-tag-bug {
+body .cm-tag-bug {
   background-color: #a12b2b !important;
   color: #ffffff !important;
   border-top-right-radius: 4px !important;
@@ -59,8 +60,8 @@
 }
 
 /* Editor / Live Preview - Left Part (#) */
-.cm-hashtag-begin:has(+ .cm-tag-bug),
-.cm-hashtag-begin:has(~ .cm-tag-bug) {
+body .cm-hashtag-begin:has(+ .cm-tag-bug),
+body .cm-hashtag-begin:has(~ .cm-tag-bug) {
   background-color: #a12b2b !important;
   color: #ffffff !important;
   border-top-left-radius: 4px !important;
