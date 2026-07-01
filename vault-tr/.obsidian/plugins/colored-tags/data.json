@@ -1,0 +1,25 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "custom",
+    "custom": "95b2b1-a0c1d1-9f9aa4-d1a49f-e7cfcd-afc2d5-cfd8d7-b5c9c3-cab1bd"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "backend": 11,
+    "daily": 12,
+    "dashboard": 2,
+    "home": 4,
+    "kanban": 10,
+    "project": 5,
+    "task": 7,
+    "backend/fastapi": 1,
+    "backend/fastapi/routing": 1
+  },
+  "tagColors": {},
+  "_version": 4
+}

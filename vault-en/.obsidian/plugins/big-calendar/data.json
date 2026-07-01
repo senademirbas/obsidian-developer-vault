@@ -1,0 +1,19 @@
+{
+  "StartDate": "monday",
+  "InsertAfter": "# Journal",
+  "ProcessEntriesBelow": "",
+  "DefaultEventComposition": "{TIME} {CONTENT}",
+  "WorkspaceFilters": [
+    {
+      "id": "default",
+      "name": "Default",
+      "eventTypes": [],
+      "contentRegex": "",
+      "folderPaths": [],
+      "metadataKeys": [],
+      "metadataValues": {},
+      "isEnabled": true
+    }
+  ],
+  "DefaultFilterId": "default"
+}

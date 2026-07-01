@@ -1,0 +1,12 @@
+# Obsidian workspace state (personal, not shared)
+.obsidian/workspace-mobile.json
+
+# Obsidian cache
+.obsidian/cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git credentials — DO NOT commit, contains your personal token
+.obsidian/plugins/obsidian-git/data.json

@@ -1,0 +1,26 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "_Templates",
+  "templates_pairs": [["", ""]],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": false,
+  "folder_templates": [{"folder": "", "template": ""}],
+  "enable_file_templates": true,
+  "file_templates": [
+    {"regex": "01_Daily/\\d{4}-\\d{2}-\\d{2}", "template": "_Templates/TPL_Daily-Note.md"},
+    {"regex": "00_Dashboard/.*", "template": "_Templates/TPL_Dashboard.md"},
+    {"regex": "03_Knowledge/.*", "template": "_Templates/TPL_Base-Knowledge.md"},
+    {"regex": "04_Snippets/.*", "template": "_Templates/TPL_Snippet.md"},
+    {"regex": "02_Projects/.*", "template": "_Templates/TPL_Project.md"}
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [""],
+  "startup_templates": [""],
+  "intellisense_render": 1,
+  "ignore_folders_on_creation": []
+}

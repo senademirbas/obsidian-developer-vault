@@ -1,0 +1,13 @@
+{
+  "link-date-to-daily-note": true,
+  "date-picker-week-start": 1,
+  "new-line-trigger": "shift-enter",
+  "move-dates": true,
+  "move-task-metadata": false,
+  "show-checkboxes": true,
+  "show-relative-date": true,
+  "archive-with-date": true,
+  "date-trigger": "due",
+  "date-format": "YYYY-MM-DD",
+  "date-display-format": "YYYY-MM-DD"
+}

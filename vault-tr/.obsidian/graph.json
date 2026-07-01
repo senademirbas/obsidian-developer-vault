@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:01_Daily  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:02_Projects  ",
+      "color": {
+        "a": 1,
+        "rgb": 9130720
+      }
+    },
+    {
+      "query": "path:03_Knowledge  ",
+      "color": {
+        "a": 1,
+        "rgb": 1845460
+      }
+    },
+    {
+      "query": "path:04_Snippets  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:05_Resources  ",
+      "color": {
+        "a": 1,
+        "rgb": 12241348
+      }
+    },
+    {
+      "query": "tag:#task  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.2,
+  "nodeSizeMultiplier": 1.14672557172557,
+  "lineSizeMultiplier": 0.963357588357588,
+  "collapse-forces": true,
+  "centerStrength": 0.504677754677755,
+  "repelStrength": 9.26195426195426,
+  "linkStrength": 1,
+  "linkDistance": 234,
+  "scale": 0.7132754626224397,
+  "close": false
+}

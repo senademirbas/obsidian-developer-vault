@@ -1,0 +1,32 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "o0GK65faIg2xdBgLSkzMx",
+      "name": "white",
+      "value": "#e7d9d9"
+    },
+    {
+      "id": "wGfbUlppoxIY77f-n81ql",
+      "name": "red",
+      "value": "#a12b2b"
+    },
+    {
+      "id": "5MZbeMpl_ckNiRkSvTJSe",
+      "name": "blue",
+      "value": "#2f2484"
+    },
+    {
+      "id": "9cQ-lKCnt6piyto5n08Dr",
+      "name": "green",
+      "value": "#275933"
+    },
+    {
+      "id": "68LyyIdtJEke1w4vfAipX",
+      "name": "yellow",
+      "value": "#aa9e74"
+    }
+  ],
+  "fileColors": []
+}
