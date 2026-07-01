@@ -1,0 +1,31 @@
+/* Style for #task tag - Cool Green highlight */
+.cm-hashtag.cm-meta.cm-tag-task,
+.tag[href="#task"] {
+  background-color: rgba(39, 89, 51, 0.15) !important;
+  color: #8ade9e !important;
+  border: 1px solid rgba(138, 222, 158, 0.3) !important;
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+.tag[href="#task"]:hover {
+  background-color: rgba(39, 89, 51, 0.3) !important;
+  border-color: rgba(138, 222, 158, 0.6) !important;
+}
+
+/* Style for #bug tag - Cool Red highlight */
+.cm-hashtag.cm-meta.cm-tag-bug,
+.tag[href="#bug"] {
+  background-color: rgba(161, 43, 43, 0.15) !important;
+  color: #f87171 !important;
+  border: 1px solid rgba(248, 113, 113, 0.3) !important;
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+.tag[href="#bug"]:hover {
+  background-color: rgba(161, 43, 43, 0.3) !important;
+  border-color: rgba(248, 113, 113, 0.6) !important;
+}

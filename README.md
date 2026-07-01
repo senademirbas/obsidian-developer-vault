@@ -87,16 +87,29 @@ Install these from **Settings → Community Plugins → Browse**:
    - Go to **Settings → Community Plugins**
    - Turn off **Restricted Mode**
    - Browse and install all plugins listed in the Required Plugins table above
-   - The plugin settings (QuickAdd, Templater, Tasks, etc.) are **pre-configured** in this vault
+   - The plugin settings (QuickAdd, Templater, Tasks, etc.) are **pre-configured** in this vault.
+   - *Note:* The `Obsidian Git` plugin is disabled by default to prevent startup errors. You can enable it in the community plugins settings when you are ready to configure backup settings.
 
 5. **Apply the theme**
    - Go to **Settings → Appearance → Themes**
    - Search for **Things** and install it
-   - The accent color (`#d5cbb8`) is already set
+   - The accent color (`#d5cbb8`) is already set.
 
 6. **Start using the vault**
-   - Open `00_Dashboard/main.md` as your home page
-   - Create a new daily note: **Settings → Daily Notes → Open today's note** or click the calendar icon
+   - Open `00_Dashboard/main.md` as your home page.
+   - Create a new daily note: **Settings → Daily Notes → Open today's note** or click the calendar icon.
+
+### Git Backup Setup (Optional)
+If you want to backup your vault to your own private GitHub repository using the `Obsidian Git` plugin:
+1. Initialize Git inside your vault folder (`vault-en/` or `vault-tr/`):
+   ```bash
+   git init
+   git remote add origin <your-private-repo-url>
+   git add .
+   git commit -m "initial vault setup"
+   git push -u origin main
+   ```
+2. Enable **Obsidian Git** in **Settings → Community Plugins** inside Obsidian. It will automatically backup your notes using the preconfigured intervals.
 
 ### Workflow Overview
 
@@ -122,12 +135,16 @@ Install these from **Settings → Community Plugins → Browse**:
 2. Template is applied automatically
 3. Link back to the relevant theory note via `related_theory:`
 
-### Tag System
+### Tag System & Highlighting
 
-Tags use `/` for hierarchy. The tag pane in the left sidebar shows them as a tree:
+Tags use `/` for hierarchy. The tag pane in the left sidebar shows them as a tree.
+This vault includes a custom CSS snippet that automatically highlights critical developer tags inside your notes:
+- `#task` -> Styled with a cool green badge background.
+- `#bug` -> Styled with a warning red badge background.
 
 ```
 ml
+
 ├── supervised
 │   ├── regression
 │   │   ├── linear
@@ -247,16 +264,29 @@ Use **Graph View → Filters → `type: knowledge`** to see only your knowledge 
    - **Settings → Community Plugins** gidin
    - **Restricted Mode**'u kapatin
    - Yukaridaki tablodan gerekli eklentileri yukleyin
-   - Eklenti ayarlari (QuickAdd, Templater, Tasks vb.) bu vault'ta **onceden yapilandirilmistir**
+   - Eklenti ayarlari (QuickAdd, Templater, Tasks vb.) bu vault'ta **onceden yapilandirilmistir**.
+   - *Not:* `Obsidian Git` eklentisi ilk açılışta hata vermemesi için varsayılan olarak devre dışı bırakılmıştır. Kendi yedekleme ayarlarınızı yapmaya hazır olduğunuzda topluluk eklentilerinden aktif edebilirsiniz.
 
 5. **Temay yukleyin**
    - **Settings → Appearance → Themes** gidin
    - **Things** arayip yukleyin
-   - Vurgu rengi (`#d5cbb8`) zaten ayarlanmistir
+   - Vurgu rengi (`#d5cbb8`) zaten ayarlanmistir.
 
 6. **Kullanmaya baslayin**
    - `00_Dashboard/main.md`'yi ana sayfa olarak acin
-   - Yeni gunluk not: **Settings → Daily Notes → Open today's note** veya takvim ikonuna tiklayin
+   - Yeni gunluk not: **Settings → Daily Notes → Open today's note** veya takvim ikonuna tiklayin.
+
+### Git Yedekleme Kurulumu (İsteğe Bağlı)
+Kasanızı kendi özel GitHub deponuza `Obsidian Git` eklentisiyle yedeklemek isterseniz:
+1. Kasa klasörünüzün içinde (`vault-en/` veya `vault-tr/`) Git'i ilklendirin:
+   ```bash
+   git init
+   git remote add origin <kendi-ozel-repo-urlniz>
+   git add .
+   git commit -m "kasa kurulumu"
+   git push -u origin main
+   ```
+2. Obsidian içerisinden **Settings → Community Plugins** menüsüne gidip **Obsidian Git** eklentisini aktifleştirin. Notlarınız hazır ayarlarla otomatik yedeklenmeye başlayacaktır.
 
 ### Calisma Akisi
 
@@ -282,12 +312,16 @@ Use **Graph View → Filters → `type: knowledge`** to see only your knowledge 
 2. Sablon otomatik uygulanir
 3. `related_theory:` ile ilgili teori notuna link verin
 
-### Etiket Sistemi
+### Etiket Sistemi ve Vurgulama
 
-Etiketler hiyerarsi icin `/` kullanir. Sol paneldeki etiket bolmesi agac olarak gosterir:
+Etiketler hiyerarsi icin `/` kullanir. Sol paneldeki etiket bolmesi agac olarak gosterir.
+Bu şablon, notlarınızdaki kritik geliştirici etiketlerini otomatik olarak renklendiren özel bir CSS snippet'i içerir:
+- `#task` -> Yumuşak yeşil bir arka plan ve sınır çizgisiyle vurgulanır.
+- `#bug` -> Hata/arıza bildirimleri için uyarıcı kırmızı bir arka planla vurgulanır.
 
 ```
 ml
+
 ├── supervised
 │   ├── regression
 │   └── ensemble

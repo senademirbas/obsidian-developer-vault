@@ -1,4 +1,7 @@
 {
   "cssTheme": "Things",
-  "accentColor": "#d5cbb8"
+  "accentColor": "#d5cbb8",
+  "enabledCssSnippets": [
+    "developer-tags"
+  ]
 }
