@@ -1,7 +1,7 @@
-/* --- #task Tag - Light Green Background & White Text --- */
+/* --- #task Tag - Forest Green Background & White Text --- */
 /* Reading Mode */
 .tag[href="#task"] {
-  background-color: rgba(46, 117, 89, 0.65) !important;
+  background-color: #275933 !important;
   color: #ffffff !important;
   border-radius: 4px !important;
   padding: 2px 6px !important;
@@ -12,7 +12,7 @@
 
 /* Editor / Live Preview - Right Part (task) */
 .cm-tag-task {
-  background-color: rgba(46, 117, 89, 0.65) !important;
+  background-color: #275933 !important;
   color: #ffffff !important;
   border-top-right-radius: 4px !important;
   border-bottom-right-radius: 4px !important;
@@ -25,7 +25,7 @@
 /* Editor / Live Preview - Left Part (#) */
 .cm-hashtag-begin:has(+ .cm-tag-task),
 .cm-hashtag-begin:has(~ .cm-tag-task) {
-  background-color: rgba(46, 117, 89, 0.65) !important;
+  background-color: #275933 !important;
   color: #ffffff !important;
   border-top-left-radius: 4px !important;
   border-bottom-left-radius: 4px !important;
@@ -34,10 +34,10 @@
   padding-bottom: 1px !important;
 }
 
-/* --- #bug Tag - Light Red Background & White Text --- */
+/* --- #bug Tag - Rich Dark Red Background & White Text --- */
 /* Reading Mode */
 .tag[href="#bug"] {
-  background-color: rgba(186, 45, 45, 0.7) !important;
+  background-color: #a12b2b !important;
   color: #ffffff !important;
   border-radius: 4px !important;
   padding: 2px 6px !important;
@@ -48,7 +48,7 @@
 
 /* Editor / Live Preview - Right Part (bug) */
 .cm-tag-bug {
-  background-color: rgba(186, 45, 45, 0.7) !important;
+  background-color: #a12b2b !important;
   color: #ffffff !important;
   border-top-right-radius: 4px !important;
   border-bottom-right-radius: 4px !important;
@@ -61,7 +61,7 @@
 /* Editor / Live Preview - Left Part (#) */
 .cm-hashtag-begin:has(+ .cm-tag-bug),
 .cm-hashtag-begin:has(~ .cm-tag-bug) {
-  background-color: rgba(186, 45, 45, 0.7) !important;
+  background-color: #a12b2b !important;
   color: #ffffff !important;
   border-top-left-radius: 4px !important;
   border-bottom-left-radius: 4px !important;
