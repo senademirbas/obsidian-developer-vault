@@ -1,18 +1,16 @@
 ---
 created: 2026-01-01
-modified: 2026-01-01
+modified: 2026-07-02
 type: project
-status: "🟡 In Progress"
-# 🔴 Planned | 🟡 In Progress | 🟢 Completed | 🔵 On Hold
-
-deadline: "2026-03-01"
-tags: [project]
-
+status: 🟡 In Progress
+deadline: 2026-03-01
+tags:
+  - project
 related_knowledge:
   - "[[03_Knowledge/Example-Topic/Example-Topic]]"
 related_snippets:
   - "[[04_Snippets/Hello-World-FastAPI]]"
-repo: "https://github.com/yourusername/example-project"
+repo: https://github.com/yourusername/example-project
 ---
 
 # Example-Project
@@ -24,10 +22,13 @@ repo: "https://github.com/yourusername/example-project"
 
 ## Goals
 
-- [x] #task Set up project structure [due:: 2026-01-05]
-- [x] #task Create first endpoint [due:: 2026-01-10]
-- [ ] #task Write tests [due:: 2026-01-20]
-- [ ] #task Deploy to production [due:: 2026-03-01]
+- [x] #task Set up project structure  [due:: 2026-01-05]  [completion:: 2026-07-02]
+- [ ] #task Create first endpoint  [due:: 2026-01-10]
+- [x] #task Write tests  [due:: 2026-01-20]  [completion:: 2026-07-02]
+- [ ] #task Deploy to production  [due:: 2026-03-01]
+- [x] #bug 
+- [ ] 
+- [ ] #
 
 ---
 
