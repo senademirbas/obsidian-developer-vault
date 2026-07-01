@@ -57,7 +57,7 @@ app = FastAPI()
 ```
 > Creates the application instance. This is the central object.
 
-#task 
+#task #bug 
 ```python
 @app.get("/")
 def root():
