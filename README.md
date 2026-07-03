@@ -26,13 +26,13 @@ A production-ready, opinionated Obsidian vault template built for developers. St
 ### Screenshots
 
 #### Main Dashboard (Calendar View)
-![Dashboard Calendar](./ss-vault-ing-3.png)
+![Dashboard Calendar](./screenshots/ss-vault-ing-3.png)
 
 #### Project Kanban Board
-![Kanban Board](./ss-vault-ing-2.png)
+![Kanban Board](./screenshots/ss-vault-ing-2.png)
 
 #### Knowledge Graph View
-![Graph View](./ss-vault-ing-4.png)
+![Graph View](./screenshots/ss-vault-ing-4.png)
 
 
 ### Credits
@@ -219,13 +219,13 @@ Use **Graph View → Filters → `type: knowledge`** to see only your knowledge 
 ### Ekran Görüntüleri
 
 #### Ana Panel (Takvim Görünümü)
-![Ana Panel Takvimi](./ss-vault-tr-3.png)
+![Ana Panel Takvimi](./screenshots/ss-vault-tr-3.png)
 
 #### Proje Kanban Tahtası
-![Kanban Tahtasi](./ss-vault-tr-2.png)
+![Kanban Tahtasi](./screenshots/ss-vault-tr-2.png)
 
 #### Bilgi Ağı (Graph View)
-![Grafik Gorunumu](./ss-vault-tr-4.png)
+![Grafik Gorunumu](./screenshots/ss-vault-tr-4.png)
 
 
 ### Gerekli Eklentiler
