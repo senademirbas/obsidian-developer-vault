@@ -1,4 +1,4 @@
-# Setup and Workflow Guide (English)
+﻿# Setup and Workflow Guide (English)
 
 This guide provides detailed instructions on how to install, configure, and integrate the Obsidian Developer Vault template into your daily software development workflow.
 

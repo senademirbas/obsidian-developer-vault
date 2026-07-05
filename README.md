@@ -1,22 +1,22 @@
-# Obsidian Developer Vault Template
+﻿# Obsidian Developer Vault Template
 
 A production-ready, opinionated Obsidian vault template built for developers. Structured for knowledge management, project tracking, daily journaling, and code snippet organization. Available in both English and Turkish.
 
 ---
 
-## Language Selection / Dil Secimi
+## Language Selection / Dil Seçimi
 
 Please choose your language to access the detailed setup and workflow guides:
 
-* ???? **[English Setup and Workflow Guide (Wiki)](https://github.com/senademirbas/obsidian-developer-vault/wiki/Setup-and-Workflow-EN)**
+* 🇬🇧 **[English Setup and Workflow Guide (Wiki)](https://github.com/senademirbas/obsidian-developer-vault/wiki/Setup-and-Workflow-EN)**
   Open the `Vault-EN/` directory as your vault in Obsidian.
 
-* ???? **[Turkce Kurulum ve Kullanim Rehberi (Wiki)](https://github.com/senademirbas/obsidian-developer-vault/wiki/Kurulum-ve-Kullanim-TR)**
-  Obsidian'da `Vault-TR/` klasorunu kasa (vault) olarak acin.
+* 🇹🇷 **[Türkçe Kurulum ve Kullanım Rehberi (Wiki)](https://github.com/senademirbas/obsidian-developer-vault/wiki/Kurulum-ve-Kullanim-TR)**
+  Obsidian'da `Vault-TR/` klasörünü kasa (vault) olarak açın.
 
 ---
 
-## Preview / Ekran Goruntuleri
+## Preview / Ekran Görüntüleri
 
 ### English Vault Preview
 #### Main Dashboard (Calendar View)
@@ -30,14 +30,14 @@ Please choose your language to access the detailed setup and workflow guides:
 
 ---
 
-### Turkce Kasa Gorunumu
-#### Ana Panel (Takvim Gorunumu)
+### Türkçe Kasa Görünümü
+#### Ana Panel (Takvim Görünümü)
 ![Ana Panel Takvimi](./Screenshots/ss-vault-tr-3.png)
 
-#### Proje Kanban Tahtasi
+#### Proje Kanban Tahtası
 ![Kanban Tahtasi](./Screenshots/ss-vault-tr-2.png)
 
-#### Bilgi Agi (Graph View)
+#### Bilgi Ağı (Graph View)
 ![Grafik Gorunumu](./Screenshots/ss-vault-tr-4.png)
 
 ---
