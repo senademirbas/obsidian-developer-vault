@@ -1,0 +1,100 @@
+# Kurulum ve Kullaným Rehberi (Türkçe)
+
+Bu rehber, Obsidian Geliþtirici Çalýþma Alaný þablonunu bilgisayarýnýza nasýl kuracaðýnýzý ve günlük iþ akýþýnýza nasýl entegre edeceðinizi ayrýntýlý olarak açýklamaktadýr.
+
+---
+
+## Neler Var?
+
+Kasa (vault) klasörü içerisinde aþaðýdaki klasör yapýlandýrmasý hazýr gelir:
+
+| Klasör | Amaç |
+|--------|------|
+| `00_Dashboard/` | Görev takvimi görünümüyle ana pano |
+| `01_Daily/` | Günlük notlar (þablondan otomatik oluþturulur) |
+| `02_Projects/` | Proje notlarý + Kanban tablolarý |
+| `03_Knowledge/` | Konu aðaçlarýyla yapýlandýrýlmýþ bilgi tabaný |
+| `04_Snippets/` | Açýklamalý kod parçacýklarý deposu |
+| `05_Resources/` | Referanslar, PDF'ler ve varlýklar |
+| `_Templates/` | Tüm not þablonlarý (Templater tabanlý) |
+| `tasksCalendar/` | Özel DataviewJS takvim görünümü bileþeni |
+
+---
+
+## Gerekli Eklentiler
+
+Vault'un tüm bileþenleriyle çalýþmasý için Obsidian içerisinden **Settings -> Community Plugins -> Browse** adýmlarýný izleyerek aþaðýdaki eklentileri yükleyin:
+
+| Eklenti | Amaç | Zorunlu mu? |
+|---------|------|---------|
+| **Templater** | Dosya oluþturulurken otomatik þablon uygulama | Evet |
+| **Tasks** | `#task` etiketi ile geliþmiþ görev takibi | Evet |
+| **Dataview** | Dashboard takvimi için DataviewJS desteði | Evet |
+| **QuickAdd** | `Ctrl+X` ile hýzlý görev yakalama | Evet |
+| **Kanban** | Kanban proje iþ tahtalarý | Evet |
+| **Calendar** | Günlük not takvim paneli (yan bar) | Evet |
+| **Obsidian Git** | Notlarý otomatik Git ile yedekleme | Önerilen |
+| **Omnisearch** | Vault genelinde tam metin arama | Önerilen |
+
+> **Önemli Not:** Tüm eklentilerin geliþmiþ ayarlarý ve kýsayollarý bu kasada önceden yapýlandýrýlmýþtýr. Eklentileri sadece kurup etkinleþtirmeniz yeterlidir.
+
+---
+
+## Kurulum Adýmlarý
+
+1. **Kasayý Ýndirin:**
+   GitHub üzerinden bu depoyu ZIP olarak indirin veya klonlayýn.
+
+2. **Obsidian'da Açýn:**
+   Obsidian uygulamasýný açýn ve **Open folder as vault** seçeneðine týklayarak indirdiðiniz klasörün içindeki `Vault-TR/` klasörünü seçin.
+
+3. **Eklentileri Etkinleþtirin:**
+   Obsidian güven soracaktýr. **Trust and Enable Plugins** seçeneðine týklayýn.
+   **Settings -> Community Plugins** menüsüne giderek **Restricted Mode**'u kapatýn ve yukarýdaki eklentileri yükleyip aktif edin.
+
+4. **Temayý Uygulayýn:**
+   **Settings -> Appearance -> Themes** menüsünden **Things** temasýný arayýp yükleyin. (Açýk ve koyu modlarla tam uyumludur).
+
+5. **Kullanmaya Baþlayýn:**
+   Ana sayfa olarak `00_Dashboard/main.md` dosyasýný açýn. Takviminiz otomatik olarak yüklenecektir.
+
+---
+
+## Günlük Çalýþma Akýþý
+
+### Görev Ekleme
+* Herhangi bir notun içindeyken **Ctrl+X** kýsayoluna basýn. Açýlan kutuya görev adýný yazýn, Enter'a basýn ve takvimden bir bitiþ tarihi seçin.
+* Sistem satýra otomatik olarak þu formatý ekler: `- [ ] #task göreviniz [due:: YYYY-MM-DD]`
+* *Not:* Kanban tablolarýnda `Ctrl+X` çalýþmaz. Kanban kartlarýnda görev eklemek için doðrudan **+** butonunu, tarih eklemek için ise kartýn içine `@{YYYY-MM-DD}` yazýmýný kullanýn.
+
+### Yeni Bilgi Notu Oluþturma
+1. `03_Knowledge/<ilgili-alan>/` klasörüne gidin.
+2. Yeni bir not oluþturun (þablon otomatik uygulanacaktýr).
+3. Notun özellikler (properties) kýsmýndaki `tags` alanýna `alan/alt-konu/detay` (Örn: `ml/supervised/xgboost`) formatýnda hiyerarþik etiket ekleyin.
+4. `parent:` alanýna üst konunun Obsidian baðlantýsýný (`[[Konu]]`) yerleþtirin.
+
+### Yeni Proje Baþlatma
+1. `02_Projects/<proje-adi>/` klasörünü oluþturun.
+2. Ýçerisine `<proje-adi>.md` dosyasý oluþturun (þablon otomatik yüklenir).
+3. Projeyi Kanban tahtasýyla takip etmek isterseniz, `_Templates/TPL_Kanban-Project` þablonunu kullanarak `<proje-adi>-Kanban.md` dosyasý oluþturun.
+
+---
+
+## Git Yedekleme Yapýlandýrmasý (Ýsteðe Baðlý)
+
+Kasanýzý kendi özel GitHub deponuza `Obsidian Git` eklentisiyle yedeklemek isterseniz:
+1. Terminalde kasa klasörünüzün içine (`Vault-TR/`) gidin ve Git'i ilklendirin:
+   ```bash
+   git init
+   git remote add origin <kendi-ozel-repo-urlniz>
+   git add .
+   git commit -m "kasa kurulumu"
+   git push -u origin main
+   ```
+2. Obsidian içerisinden **Settings -> Community Plugins** menüsüne gidip **Obsidian Git** eklentisini aktifleþtirin. Notlarýnýz arka planda otomatik yedeklenmeye baþlayacaktýr.
+
+---
+
+## Katkýda Bulunanlar / Credits
+
+- Panodaki (Dashboard) özel aylýk görev takvimi (`tasksCalendar/`), 702573N tarafýndan geliþtirilen [Obsidian-Tasks-Calendar](https://github.com/702573N/Obsidian-Tasks-Calendar) projesinden uyarlanmýþtýr. Bu harika görselleþtirme aracýný açýk kaynak olarak paylaþtýðý için kendisine teþekkür ederiz.
