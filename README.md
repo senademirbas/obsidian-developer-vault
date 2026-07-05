@@ -1,24 +1,23 @@
 ﻿# Obsidian Developer Vault Template
 
-A production-ready, opinionated Obsidian vault template built for developers. Structured for knowledge management, project tracking, daily journaling, and code snippet organization. Available in both English and Turkish.
+[English](#english) | [Türkçe](#türkçe)
 
 ---
 
-## Language Selection / Dil Seçimi
+## English
 
-Please choose your language to access the detailed setup and workflow guides:
+A production-ready, opinionated Obsidian vault template built for developers. Structured for knowledge management, project tracking, daily journaling, and code snippet organization.
 
-* 🇬🇧 **[English Setup and Workflow Guide (Wiki)](https://github.com/senademirbas/obsidian-developer-vault/wiki/Setup-and-Workflow-EN)**
-  Open the `Vault-EN/` directory as your vault in Obsidian.
+### 🌐 Quick Start
 
-* 🇹🇷 **[Türkçe Kurulum ve Kullanım Rehberi (Wiki)](https://github.com/senademirbas/obsidian-developer-vault/wiki/Kurulum-ve-Kullanim-TR)**
-  Obsidian'da `Vault-TR/` klasörünü kasa (vault) olarak açın.
+This repository contains two pre-configured vaults:
+* **English Vault:** Open the `Vault-EN/` folder as a vault in Obsidian.
+* **Turkish Vault:** Open the `Vault-TR/` folder as a vault in Obsidian.
 
----
+Detailed installation, plugin lists, and workflows are available in the [Project Wiki](https://github.com/senademirbas/obsidian-developer-vault/wiki).
 
-## Preview / Ekran Görüntüleri
+### Previews
 
-### English Vault Preview
 #### Main Dashboard (Calendar View)
 ![Dashboard Calendar](./Screenshots/ss-vault-ing-3.png)
 
@@ -30,7 +29,20 @@ Please choose your language to access the detailed setup and workflow guides:
 
 ---
 
-### Türkçe Kasa Görünümü
+## Türkçe
+
+Yazılım geliştiriciler için özel olarak yapılandırılmış, üretime hazır bir Obsidian kasa (vault) şablonudur. Bilgi yönetimi, proje takibi, günlük notlar ve kod parçacığı organizasyonu için tasarlanmıştır.
+
+### 🌐 Hızlı Başlangıç
+
+Bu depo iki adet önceden yapılandırılmış kasa içerir:
+* **İngilizce Kasa:** Obsidian'da `Vault-EN/` klasörünü kasa olarak açın.
+* **Türkçe Kasa:** Obsidian'da `Vault-TR/` klasörünü kasa olarak açın.
+
+Detaylı kurulum adımları, gerekli eklentiler ve günlük çalışma akışı kılavuzuna [Proje Wiki](https://github.com/senademirbas/obsidian-developer-vault/wiki) sayfasından ulaşabilirsiniz.
+
+### Ekran Görüntüleri
+
 #### Ana Panel (Takvim Görünümü)
 ![Ana Panel Takvimi](./Screenshots/ss-vault-tr-3.png)
 
@@ -39,15 +51,3 @@ Please choose your language to access the detailed setup and workflow guides:
 
 #### Bilgi Ağı (Graph View)
 ![Grafik Gorunumu](./Screenshots/ss-vault-tr-4.png)
-
----
-
-## Features
-
-- **Developer Dashboard:** Preconfigured monthly tasks calendar powered by DataviewJS.
-- **Bilingual Support:** Fully separated Turkish (`Vault-TR/`) and English (`Vault-EN/`) templates.
-- **Workflow Automation:** Quick task capture via QuickAdd (`Ctrl+X`) and auto-updating modified date in frontmatter.
-- **Custom Tag Highlighting:** Soft colored styling for `#task` and `#bug` tags inside notes.
-- **Clean Structure:** Preconfigured folders for daily notes, projects, knowledge base, snippets, and resources.
-
-For detailed configuration, plugin lists, and workflows, please visit the [Project Wiki](https://github.com/senademirbas/obsidian-developer-vault/wiki).
